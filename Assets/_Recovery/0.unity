@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 79713898}
   m_Layer: 0
   m_Name: obstaculo01
-  m_TagString: obstaculo
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 107274893}
   m_Layer: 0
   m_Name: terreno02 (8)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 182200925}
   m_Layer: 0
   m_Name: coletavel01
-  m_TagString: item
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -590,7 +590,7 @@ GameObject:
   - component: {fileID: 320710823}
   m_Layer: 0
   m_Name: terreno02
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1001,7 +1001,7 @@ GameObject:
   - component: {fileID: 612392754}
   m_Layer: 0
   m_Name: terreno02 (5)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1172,7 +1172,7 @@ GameObject:
   - component: {fileID: 784156197}
   m_Layer: 0
   m_Name: terreno02 (3)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1447,7 +1447,7 @@ GameObject:
   - component: {fileID: 1014820499}
   m_Layer: 0
   m_Name: terreno02 (2)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1585,7 +1585,7 @@ GameObject:
   - component: {fileID: 1101428363}
   m_Layer: 0
   m_Name: terreno02 (12)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1723,7 +1723,7 @@ GameObject:
   - component: {fileID: 1173074417}
   m_Layer: 0
   m_Name: terreno02 (13)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1859,7 +1859,7 @@ GameObject:
   - component: {fileID: 1221434366}
   m_Layer: 0
   m_Name: "colet\xE1veis"
-  m_TagString: item
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1892,7 +1892,7 @@ GameObject:
   - component: {fileID: 1310510500}
   m_Layer: 0
   m_Name: terreno02 (9)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2029,7 +2029,7 @@ GameObject:
   - component: {fileID: 1317618580}
   m_Layer: 0
   m_Name: obstaculo01 (1)
-  m_TagString: obstaculo
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2121,7 +2121,7 @@ GameObject:
   - component: {fileID: 1378995855}
   m_Layer: 0
   m_Name: terreno02 (14)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2256,7 +2256,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1401855891}
   - component: {fileID: 1401855890}
-  - component: {fileID: 1401855892}
   - component: {fileID: 1401855889}
   - component: {fileID: 1401855888}
   m_Layer: 0
@@ -2327,17 +2326,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.08619928, y: -0.07870388}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.625, y: 1.3125}
-    newSize: {x: 1.625, y: 1.3125}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.79761887, y: 1.1124339}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1401855890
 SpriteRenderer:
@@ -2386,14 +2385,14 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 4
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 4b112eff24c06c644a0c539296f5bd4d, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.625, y: 1.3125}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2407,26 +2406,12 @@ Transform:
   m_GameObject: {fileID: 1401855887}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5, y: 1.48, z: 0}
+  m_LocalPosition: {x: -7.79, y: 0.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1401855892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1401855887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c513627ad2603943a33eb3d92f4ddd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::JogadorController
-  velocidade: 5
-  forcaPulo: 7
 --- !u!1 &1407459556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,7 +2538,7 @@ GameObject:
   - component: {fileID: 1572310981}
   m_Layer: 0
   m_Name: terreno02 (1)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2819,7 +2804,7 @@ GameObject:
   - component: {fileID: 1960756553}
   m_Layer: 0
   m_Name: coletavel02
-  m_TagString: item
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3048,7 +3033,7 @@ GameObject:
   - component: {fileID: 2010762228}
   m_Layer: 0
   m_Name: terreno02 (15)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3186,7 +3171,7 @@ GameObject:
   - component: {fileID: 2014952209}
   m_Layer: 0
   m_Name: terreno02 (10)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3323,7 +3308,7 @@ GameObject:
   - component: {fileID: 2032133487}
   m_Layer: 0
   m_Name: entrada_portal_0
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3415,7 +3400,7 @@ GameObject:
   - component: {fileID: 2039339039}
   m_Layer: 0
   m_Name: terreno02 (11)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3553,7 +3538,7 @@ GameObject:
   - component: {fileID: 2070466218}
   m_Layer: 0
   m_Name: terreno02 (4)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3691,7 +3676,7 @@ GameObject:
   - component: {fileID: 2080102099}
   m_Layer: 0
   m_Name: terreno02 (7)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3829,7 +3814,7 @@ GameObject:
   - component: {fileID: 2098113554}
   m_Layer: 0
   m_Name: entrada_portal
-  m_TagString: portal
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4107,7 +4092,7 @@ GameObject:
   - component: {fileID: 2134867664}
   m_Layer: 0
   m_Name: terreno02 (16)
-  m_TagString: chao
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
