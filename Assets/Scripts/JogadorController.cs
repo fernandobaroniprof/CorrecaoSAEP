@@ -38,6 +38,4 @@ public class JogadorController : MonoBehaviour
             estaNoChao = false;
         }
     }
-
-
 }

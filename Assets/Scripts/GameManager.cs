@@ -6,6 +6,12 @@ public class GameManager : MonoBehaviour
     public int vida = 4;
     public int vidaMaxima = 6;
 
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
+
     public void Dano()
     {
         vida--;
@@ -15,7 +21,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Derrota");
     }
-    public void cura()
+    public void Cura()
     {
         if (vida<6) vida++;
     }
