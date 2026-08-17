@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     public void Derrota()
     {        
         painelDerrota.SetActive(true);
+        Time.timeScale = 0;
     }
     public void Cura()
     {

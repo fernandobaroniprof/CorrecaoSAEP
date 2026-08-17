@@ -8,6 +8,7 @@ public class Orbe : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             painelVitoria.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }
