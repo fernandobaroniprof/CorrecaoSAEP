@@ -29,20 +29,20 @@ public class JogadorController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && estaNoChao)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
-            animator.SetBool("pulando", true);
         }        
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("chao")){
             estaNoChao = true;
-            animator.SetBool("pulando", false);
+            animator.SetBool("estanochao", true);
         }
     }
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("chao")){
             estaNoChao = false;
+            animator.SetBool("estanochao", false);
         }
     }
 }
